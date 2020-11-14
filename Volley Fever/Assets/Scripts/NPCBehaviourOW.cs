@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class NPCBehaviourOW : MonoBehaviour
@@ -11,13 +12,18 @@ public class NPCBehaviourOW : MonoBehaviour
     private Vector3 storedPosition;
     private CircleCollider2D collider;
     private PlayerControls controls;
+    private bool conversationStarted;
+    [SerializeField] private Dialogue dialogue;
+    [SerializeField] private TextMeshProUGUI tmp;
 
     private void Awake()
     {
+        conversationStarted = false;
         controls = new PlayerControls();
         collider = GetComponent<CircleCollider2D>();
        rt = UIPanel.GetComponent<RectTransform>();
        storedPosition = GetComponentInChildren<Transform>().position;
+       controls.Overworld.Talk.performed += ctx => Talk();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -38,9 +44,8 @@ public class NPCBehaviourOW : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
+        //change position of the panel
         rt.position = storedPosition + new Vector3(0,1,0);
-        Debug.Log(storedPosition);
-        //Debug.Log(rt.position);
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -58,6 +63,25 @@ public class NPCBehaviourOW : MonoBehaviour
 
     private void Talk()
     {
-        //controls.Overworld.Talk
+        //when you press 'x'
+        //start dialogue and go through the entire thing
+        //when you press 'x' one last time
+        //change scene to volleyball game
+        if (conversationStarted == false)
+        {
+            anim.SetBool("talkStart", true);
+            anim.SetBool("talkCont" , true);
+            conversationStarted = true;
+        }
+        
+        if (conversationStarted)
+        {
+            for (int i = 0; i < dialogue.lines.Length-1; i++)
+            {
+                tmp.text = dialogue.lines[i];
+            }
+        }
     }
+
+    
 }

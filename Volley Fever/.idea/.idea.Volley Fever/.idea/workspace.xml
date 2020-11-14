@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b3a2915-994b-4466-9302-94c04c4bbc00" name="Default Changelist" comment="" />
+    <list default="true" id="9b3a2915-994b-4466-9302-94c04c4bbc00" name="Default Changelist" comment="Forgot to commit all this time xd">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Volley Fever/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Volley Fever/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Volley Fever/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Volley Fever/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Panel.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Panel.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ehscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ehscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPCBehaviourOW.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPCBehaviourOW.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Plugins/HID/HID.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.spriteshape@3.0.13/Runtime/SpriteShapeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerControllerTopDown.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -39,6 +46,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControllerTopDown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPCBehaviourOW.cs" />
       </list>
     </option>
@@ -101,7 +109,8 @@
       <workItem from="1605023385767" duration="4283000" />
       <workItem from="1605100406606" duration="5814000" />
       <workItem from="1605267815644" duration="10555000" />
-      <workItem from="1605304426884" duration="3753000" />
+      <workItem from="1605304426884" duration="4043000" />
+      <workItem from="1605355721068" duration="8081000" />
     </task>
     <servers />
   </component>
@@ -190,6 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="198" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605028832806" />
+    <state x="742" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605309444209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605309444209" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605283607132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
